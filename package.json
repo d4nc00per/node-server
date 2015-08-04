@@ -1,0 +1,15 @@
+{
+  "name": "node-server",
+  "description": "A node web server for home automation.",
+  "author": "Daniel Cooper <cooper.daniel45@gmail.com>",
+  "repository": "",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongodb": "^3.0.x"
+  },
+  "devDependencies": {
+    "less": "^2.5.x"
+  },
+  "engine": "node >= 0.10.x"
+}
