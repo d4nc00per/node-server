@@ -1,6 +1,7 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var fs = require('fs');
+var auth = require('./auth');
 
 var app = express();
 
@@ -19,7 +20,7 @@ function login(req, res) {
 	var username = req.body.username;
 	var password = req.body.password;
 
-	res.send(username + password)
+	res.send(auth.authenticate(username, password))
 }
 
 function returnView(req, res) {
