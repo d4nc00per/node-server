@@ -6,10 +6,19 @@
   "dependencies": {
     "body-parser": "^1.13.3",
     "express": "^4.13.3",
-    "mongodb": "^3.0.x"
+    "mongodb": "^2.0.39"
   },
   "devDependencies": {
-    "less": "^2.5.x"
+    "gulp": "^3.9.0",
+    "gulp-exec": "^2.1.1",
+    "gulp-jshint": "^1.11.2",
+    "gulp-less": "^3.0.3",
+    "gulp-recess": "^1.1.2",
+    "gulp-util": "^3.0.6",
+    "jshint": "^2.8.0"
   },
-  "engine": "node >= 0.10.x"
+  "engine": "node >= 0.10.x",
+  "scripts": {
+    "start": "npm install && gulp"
+  }
 }

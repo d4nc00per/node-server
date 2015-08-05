@@ -6,9 +6,9 @@ html body section div.login {
   width: 10%;
   margin: 200px auto;
   padding: 50px;
-  border: 1px solid #333333;
+  border: 1px solid #333;
   border-radius: 5px;
-  background: #cccccc;
+  background: #CCC;
 }
 html body section div.login input {
   margin-bottom: 5px;
